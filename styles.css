@@ -1,0 +1,159 @@
+html, body{
+    background-color: #F8F3FE;
+    height: 100%;
+    margin: 0;
+}
+
+#header{
+    background-color: #00629B;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 250px;
+    min-width: 100%;
+    overflow: hidden;
+}
+
+#header-info{
+    min-width: 500px;
+    position: absolute;
+    top: 15%;
+    left: 10%;
+}
+#header-info img{
+    float: left;
+    margin-right: 30px;
+}
+#header-text-block{
+    -webkit-text-size-adjust: 100%;
+    word-wrap: break-word;
+    max-width: 100%
+}
+#header-text{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 34px;
+    color: #F8F3FE;
+    word-wrap: break-word;
+}
+#sub-header-text{
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    color: #F8F3FE;
+    margin-bottom: 10px;
+    word-wrap: break-word;
+}
+#avatar{
+    width: 130px;
+    border: 1px solid, rgba(0,0,0,0);
+    border-radius: 50%;
+}
+#git{
+    width: 40px;
+    position: absolute;
+    right: 10px;
+    top: 1%;
+}
+@media (max-width: 550px) {
+  #avatar{
+    display: none;
+  }
+}
+@media (max-width: 350px) {
+  #header-text{
+    font-size: 9vw;
+  }
+  #sub-header-text{
+    font-size: 5vw;
+  }
+}
+
+#content{
+    position: absolute;
+    top: 250px;
+    overflow: auto;
+    min-height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    
+    letter-spacing:0.5px;
+    word-spacing: 5px;
+    line-height: 25px;
+    overflow: visible;
+}
+.main-headers{
+    margin-left: 4%;
+    font-size: 30px;
+    margin-bottom: 40px;
+    max-width: 50%;
+}
+.biography-header{
+    margin-left: 4%;
+    font-size: 20px;
+    max-width: 50%;
+}
+#content hr{
+    margin-left: 4%;
+    max-width: 50%;
+}
+#content p{
+    margin-left: 8%;
+    font-family: serif;
+    max-width: 50%;
+}
+#content li{
+    margin-left: 8%;
+    font-family: serif;
+    max-width: 50%;
+}
+#image-box{
+    width: 40%;
+    
+    margin-top: 250px;
+    float: right;
+}
+#image-box img{
+    
+    width: 80%;
+    margin-left: 2vw;
+    margin-top: 10em;
+}
+@media (max-width: 1000px) {
+    #image-box{
+        display: none;
+    }
+    .main-headers{
+        min-width: 90%;
+    }
+    .biography-header{
+        min-width: 90%;
+    }
+    #content hr{
+        min-width: 90%;
+    }
+    #content p{
+        min-width: 90%;
+    }
+    #content li{
+        min-width: 90%;
+    }
+    
+    }
+@media (max-width: 1600px) {
+    #image-box img{
+        margin-top: 23em;
+    }
+    
+}
+
+footer{
+    background-color: #007AC3;
+    height: 53px;
+    text-align: center;
+}
+#footer-text{
+    position: relative;
+    top: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: #F8F3FE;
+}
